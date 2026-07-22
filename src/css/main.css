@@ -84,3 +84,115 @@ width: 519px;
 font-size: 16px;
     }
 }
+/* FEATURES */
+.features-container {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.features-swiper .swiper-slide {
+border-radius: 16px;
+    padding: 24px;
+    width: 308px;
+    height: 197px;
+    border: 1px solid rgba(0, 245, 255, 0.12);
+    background-image: url("/img/features/back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.features-item-title {
+font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #e0f2fe;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.slider-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 28px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #00F5FF;
+    border-radius: 100%;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+.arrow{
+    stroke: #00F5FF;
+}
+.slider-button:hover{
+ background-color: #00F5FF;   
+}
+.slider-button:hover .arrow{
+    stroke: #fff;
+}
+
+.arrow-next{
+    transform: rotate(180deg);
+}
+ .swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.slider-pagination .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background: #00F5FF;
+    border-radius: 100%;
+}
+
+.features-pagination .swiper-pagination-bullet-active {
+    width: 6px;
+    height: 6px;
+    background: #00F5FF;
+}
+
+@media only screen and (min-width: 1440px) {
+    .features-container {
+        padding-left: 78px;
+        padding-right: 78px;
+    }
+
+    .features-swiper .swiper-wrapper {
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .features-swiper .swiper-slide {
+width: 308px;
+    height: 243px;
+    }
+
+    .features-item-title {
+font-size: 18px;
+    }
+
+    .features-controls {
+        display: none;
+    }
+}
