@@ -288,9 +288,41 @@ width: 413px;
 .reviews-item-title{
 font-size: 18px;
 }
-.reviews-item-author{
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.33333;
-}    
+   
+}
+/* About */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 50px center;
+    background-size: 100% 369px;
+    height: 419px;
+}
+.about-wrapper{
+    width: 302px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-title{
+    text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+ .about-section{
+    background-image: url("/img/about/desk.png");
+    background-repeat: no-repeat;
+    background-position: bottom 100px center;
+    background-size: 100% 441px;
+    height: 641px;
+}
+.about-container{
+    padding-left: 60px;
+}
+.about-wrapper{
+    width: 570px;
+    margin-left: 0;
+margin-top: 70px;
+}
+.about-title{
+    text-align: left;
+}   
 }
