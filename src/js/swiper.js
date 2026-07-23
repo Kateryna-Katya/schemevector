@@ -60,6 +60,8 @@ function initSwipers() {
       prevButtonSelector: '.features-button-prev',
       nextButtonSelector: '.features-button-next',
       paginationSelector: '.features-pagination',
+       autoplay: true,
+      loop: true,     
     });
   }
 

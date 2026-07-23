@@ -166,7 +166,7 @@ font-family: "Space Grotesk", sans-serif;
     border-radius: 100%;
 }
 
-.features-pagination .swiper-pagination-bullet-active {
+.slider-pagination .swiper-pagination-bullet-active {
     width: 6px;
     height: 6px;
     background: #00F5FF;
@@ -192,7 +192,51 @@ width: 308px;
 font-size: 18px;
     }
 
-    .features-controls {
+    .slider-controls {
         display: none;
     }
+}
+/* How It Works */
+.how-controls {
+    width: 110px;
+}
+.how-container{
+    padding-left: 69px;
+    padding-right: 69px;
+}
+.how-swiper .swiper-slide{
+border: 1px solid rgba(0, 245, 255, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+    width: 236px;
+    height: 150px;
+background: rgba(27, 38, 57, 0.5);
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+.how-item-title{
+font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #e0f2fe;
+}
+@media only screen and (min-width: 1440px) {
+.how-container{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.how-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 16px;
+}
+.how-swiper .swiper-slide{
+width: 308px;
+    height: 143px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.how-item-title{
+font-size: 18px;
+}    
 }
